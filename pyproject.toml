@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dynamic_fingerprint_generator"
+version = "0.1.0"
+description = ""
+authors = ["mark.otting <mark@otting.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tornado = "^6.4"
+pillow = "^10.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
