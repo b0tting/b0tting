@@ -17,6 +17,7 @@ image_manager = ImageManager(config["IMAGES_PATH"], max_objects=config["MAX_OBJE
 class MainHandler(tornado.web.RequestHandler):
     def send_image(self, image):
         self.set_header('Content-Type', 'image/png')
+        self.set_header('Cache-Control', 'no-cache')
         temp_image = BytesIO()
         image.save(temp_image, format="png")  # jpeg encoder isn't available in my install...
         self.write(temp_image.getvalue())

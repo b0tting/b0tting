@@ -8,4 +8,4 @@
 
 ![personal_gradient](https://signature-gradient.otict.nl)
 
-![explaining_text.png](images%2Fexplaining_text.png)
+<sup>Cool, personalised dynamic gradient, but Github's anonymizer takes over so I can't get your browser / IP signature any longer turning it into a randomized image now.</sup>
