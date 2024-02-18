@@ -8,4 +8,4 @@
 
 ![personal_gradient](https://signature-gradient.otict.nl)
 
-<sup>Cool, personalised dynamic gradient, but Github's anonymizer takes over so I can't get your browser / IP signature any longer turning it into a randomized image now.</sup>
+<sup>This is a personalised gradient based on combining your and my browser signature. Does not work as planned on Github, as Github has an anonymizing and caching service for markdown images. This hides your request and does not allow me to see your IP & browser headers. The image is just some daily changing colors now.</sup>
